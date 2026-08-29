@@ -1,0 +1,16 @@
+Metric,Value
+Overall Accuracy,0.585
+Macro Precision,0.6840250211449949
+Macro Recall,0.38069440447659436
+Macro F1-Score,0.42393461821754924
+Weighted Precision,0.64269520851819
+Weighted Recall,0.585
+Weighted F1-Score,0.5654318697665552
+Highest Accuracy Category,Energy (97.70%)
+Lowest Accuracy Category,Business (62.10%)
+Highest Precision Category,Politics (87.76%)
+Lowest Precision Category,Business (50.00%)
+Highest Recall Category,Business (79.68%)
+Lowest Recall Category,Health (6.90%)
+Highest F1-Score Category,Politics (63.47%)
+Lowest F1-Score Category,Health (12.50%)
