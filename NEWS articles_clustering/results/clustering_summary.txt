@@ -1,0 +1,29 @@
+CLUSTERING PROJECT - FINAL SUMMARY
+==================================================
+Total rows used: 5000
+Engineered features used for clustering: title_len, num_digits_count, question_mark_count, punctuation_count, sentiment_score, poi_count, has_location
+Category was excluded from clustering (unsupervised task).
+
+K-MEANS
+  K values tested: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+  Best K: 2
+  Best Silhouette Score: 0.2735
+  Cluster sizes:
+ Cluster  Size
+       0  3730
+       1  1270
+
+HIERARCHICAL (Agglomerative, Ward linkage)
+  Selected distance threshold: 58.9427
+  Resulting number of clusters: 5
+  Cluster sizes:
+ Cluster  Size
+       1  1487
+       2  2212
+       3    92
+       4   664
+       5   545
+
+NOTE: Clustering is unsupervised and does not recover the true
+news Category labels. The category breakdown in
+cluster_category_analysis.csv is for interpretation only.

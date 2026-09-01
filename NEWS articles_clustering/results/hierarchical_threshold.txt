@@ -1,0 +1,6 @@
+Hierarchical Clustering - Threshold Selection
+==================================================
+Linkage method: Ward
+Selection method: largest-gap heuristic on the last 15 merge distances
+Selected distance threshold: 58.9427
+Resulting number of clusters: 5
