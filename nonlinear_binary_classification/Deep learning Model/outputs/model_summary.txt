@@ -1,0 +1,38 @@
+Model: "nonlinear_binary_classifier"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Layer (type)            ┃ Output Shape      ┃   Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ hidden_layer_1_relu     │ (None, 6)         │        18 │
+│ (Dense)                 │                   │           │
+├─────────────────────────┼───────────────────┼───────────┤
+│ hidden_layer_2_tanh     │ (None, 6)         │        42 │
+│ (Dense)                 │                   │           │
+├─────────────────────────┼───────────────────┼───────────┤
+│ hidden_layer_3_sigmoid  │ (None, 6)         │        42 │
+│ (Dense)                 │                   │           │
+├─────────────────────────┼───────────────────┼───────────┤
+│ hidden_layer_4_elu      │ (None, 6)         │        42 │
+│ (Dense)                 │                   │           │
+├─────────────────────────┼───────────────────┼───────────┤
+│ output_layer (Dense)    │ (None, 1)         │         7 │
+└─────────────────────────┴───────────────────┴───────────┘
+ Total params: 151 (604.00 B)
+ Trainable params: 151 (604.00 B)
+ Non-trainable params: 0 (0.00 B)
+
+How to read this summary
+-------------------------
+* "Layer (type)"    -> the name we gave the layer and what kind it is (Dense).
+* "Output Shape"    -> (None, 6) means "however many samples you give it,
+                        each one produces 6 numbers" (one per neuron).
+* "Param #"         -> the number of trainable weights + biases in that
+                        layer. For a Dense layer going from N inputs to M
+                        neurons, the parameter count is (N * M) weights plus
+                        M biases, i.e. N*M + M.
+                        Example: Input(2) -> Dense(6):
+                                 2*6 weights + 6 biases = 18 parameters.
+                        Example: Dense(6) -> Dense(6):
+                                 6*6 weights + 6 biases = 42 parameters.
+* "Total params"    -> the sum of all parameters in the whole network.
+                        These are exactly the numbers that get adjusted
+                        during training (via backpropagation + Adam).
