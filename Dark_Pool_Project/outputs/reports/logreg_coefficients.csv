@@ -1,0 +1,92 @@
+,coefficient
+realized_vol_12wk,-0.5406213749171329
+dp_ratio_market_relative,0.2717544207425156
+volume_z,0.21673015431935733
+price_range_position,-0.20968999954259238
+dp_ratio_wow_change avg_trade_size_z,0.14994624159789396
+dp_ratio_accel avg_trade_size_z,-0.1397666212623203
+dp_ratio_zscore,-0.1390420195374729
+avg_trade_size_z volume_z,-0.11441739453273943
+dp_ratio_wow_change dp_ratio_market_relative,-0.10201769959164772
+dp_ratio_trend_slope momentum_4wk,0.1009509010026367
+dp_ratio_market_relative realized_vol_12wk,-0.09699628773396986
+avg_trade_size_z price_range_position,-0.09456532905713033
+avg_trade_size_z realized_vol_12wk,0.0927504851866057
+dp_ratio_zscore realized_vol_12wk,-0.08518258859005888
+momentum_4wk price_range_position,-0.08330619221352142
+dp_ratio_trend_slope realized_vol_12wk,-0.07886616511447413
+dp_ratio_accel realized_vol_12wk,0.07629579387447347
+dark_pool_ratio dp_ratio_8wk_avg,0.0755543557064754
+dark_pool_ratio dp_ratio_4wk_avg,0.06660637242777842
+avg_trade_size_z momentum_4wk,0.06335137983825863
+dp_ratio_zscore dp_ratio_market_relative,-0.06021068880108829
+dp_ratio_zscore volume_z,0.05956718535448595
+dp_ratio_zscore price_range_position,0.053394301139851406
+dp_ratio_trend_slope avg_trade_size_z,0.05137170844027053
+dp_ratio_8wk_avg realized_vol_12wk,0.050693882328876734
+dp_ratio_accel dp_ratio_market_relative,-0.049092176130056384
+dp_ratio_8wk_avg,-0.047870126357098655
+dark_pool_ratio avg_trade_size_z,0.04644520822555519
+dp_ratio_4wk_avg,-0.04630055636590498
+dp_ratio_market_relative momentum_4wk,-0.0443895686800935
+dark_pool_ratio momentum_4wk,0.043742590932061405
+dark_pool_ratio dp_ratio_wow_change,-0.042736790717600615
+dp_ratio_wow_change dp_ratio_trend_slope,0.04267844266159779
+dp_ratio_trend_slope dp_ratio_market_relative,0.042115022027747154
+dark_pool_ratio dp_ratio_accel,0.04208989539184211
+dark_pool_ratio price_range_position,0.04048744129884627
+avg_trade_size_z,-0.03899725684811831
+realized_vol_12wk price_range_position,-0.03854091476739463
+dark_pool_ratio dp_ratio_trend_slope,-0.03850796473411426
+dp_ratio_8wk_avg dp_ratio_trend_slope,0.037854925502724
+dp_ratio_4wk_avg dp_ratio_8wk_avg,0.03745229190441972
+dark_pool_ratio dp_ratio_market_relative,-0.037310452649536544
+dp_ratio_zscore momentum_4wk,-0.03600499554100564
+dp_ratio_market_relative price_range_position,-0.035007398807848984
+dp_ratio_accel dp_ratio_zscore,0.034792843365880635
+dp_ratio_accel volume_z,0.034048000229712445
+dp_ratio_4wk_avg realized_vol_12wk,0.03390099890163627
+volume_z realized_vol_12wk,0.0334140661877563
+dp_ratio_zscore avg_trade_size_z,-0.03271332360020636
+dp_ratio_wow_change dp_ratio_4wk_avg,0.03235090043036848
+dp_ratio_4wk_avg dp_ratio_trend_slope,-0.03038854424443906
+dp_ratio_8wk_avg volume_z,0.030170888158901652
+dark_pool_ratio volume_z,-0.03013000413918979
+volume_z momentum_4wk,0.028157955140450323
+dark_pool_ratio dp_ratio_zscore,-0.026795137626820367
+momentum_4wk,-0.026551592180380574
+dp_ratio_4wk_avg volume_z,0.026101017697983935
+dp_ratio_wow_change,0.025717198185796767
+dp_ratio_accel,0.02562173208616145
+dp_ratio_wow_change dp_ratio_8wk_avg,0.024021567877921392
+volume_z price_range_position,0.023210626179659754
+dp_ratio_trend_slope dp_ratio_accel,-0.022154992126586986
+dp_ratio_accel momentum_4wk,0.021638598015727175
+dp_ratio_8wk_avg dp_ratio_zscore,0.021410921896020004
+dark_pool_ratio realized_vol_12wk,-0.020356504914306413
+dp_ratio_8wk_avg momentum_4wk,-0.019770240308984704
+dp_ratio_trend_slope dp_ratio_zscore,-0.019142992345178595
+dp_ratio_trend_slope volume_z,-0.017818556450847494
+dp_ratio_4wk_avg dp_ratio_zscore,0.01720065513014999
+dp_ratio_wow_change dp_ratio_accel,-0.016676154130068992
+dp_ratio_4wk_avg avg_trade_size_z,0.014177446582462061
+dp_ratio_4wk_avg dp_ratio_accel,-0.012673435466832582
+dp_ratio_wow_change price_range_position,0.012209774446542337
+dp_ratio_4wk_avg dp_ratio_market_relative,0.010482382315073835
+dp_ratio_wow_change momentum_4wk,0.01028858903282494
+dark_pool_ratio,0.010115084048395942
+dp_ratio_8wk_avg price_range_position,0.009591822998162608
+dp_ratio_market_relative avg_trade_size_z,-0.009476474334676882
+dp_ratio_trend_slope price_range_position,-0.009243417478302856
+dp_ratio_8wk_avg dp_ratio_accel,-0.008287941133984643
+dp_ratio_4wk_avg price_range_position,0.007569848369384851
+momentum_4wk realized_vol_12wk,-0.007230880883423709
+dp_ratio_accel price_range_position,0.004526028141671053
+dp_ratio_trend_slope,0.0042477751216223264
+dp_ratio_8wk_avg avg_trade_size_z,0.003781174398572727
+dp_ratio_wow_change realized_vol_12wk,-0.0034757076246280114
+dp_ratio_wow_change volume_z,-0.0025276013659558897
+dp_ratio_market_relative volume_z,-0.0021945224846618835
+dp_ratio_8wk_avg dp_ratio_market_relative,0.001942363620892823
+dp_ratio_wow_change dp_ratio_zscore,0.0012974925271229845
+dp_ratio_4wk_avg momentum_4wk,0.0010603251741863023
