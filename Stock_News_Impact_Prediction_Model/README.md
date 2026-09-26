@@ -1,4 +1,4 @@
-# Stock News Impact Dataset
+# Stock News Impact Prediction Model
 
 A reproducible pipeline that builds a large, clean dataset of **US stock-market news events**, each linked to the
 affected ticker(s), aligned to **Alpaca 1-minute OHLCV bars**, and labelled `spike` / `crash` / `neutral` according to

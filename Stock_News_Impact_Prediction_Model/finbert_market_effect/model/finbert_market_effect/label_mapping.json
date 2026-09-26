@@ -1,0 +1,17 @@
+{
+  "id2label": {
+    "0": "neutral",
+    "1": "spike",
+    "2": "crash"
+  },
+  "label2id": {
+    "neutral": 0,
+    "spike": 1,
+    "crash": 2
+  },
+  "input_mode": "title",
+  "max_length": 64,
+  "base_model": "ProsusAI/finbert",
+  "trained_at_utc": "2026-09-26T05:32:45+00:00",
+  "smoke_test": false
+}

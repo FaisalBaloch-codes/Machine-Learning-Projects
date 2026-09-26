@@ -1,0 +1,7 @@
+actual_label,predicted_label,count,share_of_actual_class,share_of_all_errors
+neutral,spike,3511,0.1532,0.314
+crash,spike,2102,0.4211,0.188
+spike,neutral,1712,0.3191,0.1531
+crash,neutral,1699,0.3403,0.1519
+neutral,crash,1565,0.0683,0.14
+spike,crash,593,0.1105,0.053
