@@ -1,0 +1,4 @@
+# Large files stored with Git LFS (GitHub rejects normal files > 100 MB)
+finbert_market_effect/model/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+finbert_market_effect/model/**/*.bin filter=lfs diff=lfs merge=lfs -text
+data/processed/ml_ready_dataset.csv filter=lfs diff=lfs merge=lfs -text

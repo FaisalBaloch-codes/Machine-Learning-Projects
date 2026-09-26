@@ -1,0 +1,14 @@
+{
+  "alpha_vantage_raw_count": 19383,
+  "alpaca_raw_count": 285306,
+  "valid_news_before_dedup": 304382,
+  "valid_alpha_vantage": 19131,
+  "valid_alpaca": 285251,
+  "duplicates_removed": 585,
+  "duplicates_by_rule": {
+    "normalized_url": 575,
+    "title_timestamp": 10
+  },
+  "cross_provider_clusters": 19,
+  "final_unique_news_count": 303797
+}

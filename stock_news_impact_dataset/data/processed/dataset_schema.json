@@ -1,0 +1,290 @@
+{
+  "news_id": {
+    "role": "identifier",
+    "description": "Stable article id (hash of normalised URL)"
+  },
+  "event_id": {
+    "role": "identifier",
+    "description": "news_id + ticker (one row per article-ticker pair)"
+  },
+  "ticker": {
+    "role": "feature",
+    "description": "US-listed equity symbol affected by the article"
+  },
+  "company_name": {
+    "role": "feature",
+    "description": "Company name from Alpaca asset master"
+  },
+  "title": {
+    "role": "feature",
+    "description": "Article headline (text)"
+  },
+  "description": {
+    "role": "feature",
+    "description": "Article summary/description (text)"
+  },
+  "news_published_timestamp_utc": {
+    "role": "feature",
+    "description": "Publication time, UTC (ISO-8601)"
+  },
+  "news_published_timestamp_et": {
+    "role": "feature",
+    "description": "Publication time, US/Eastern"
+  },
+  "news_date": {
+    "role": "feature",
+    "description": "Publication date (UTC)"
+  },
+  "news_time": {
+    "role": "feature",
+    "description": "Publication time of day (UTC)"
+  },
+  "news_day_of_week": {
+    "role": "feature",
+    "description": "0=Monday (US/Eastern)"
+  },
+  "news_hour_et": {
+    "role": "feature",
+    "description": "Hour of day, US/Eastern"
+  },
+  "news_session_position": {
+    "role": "feature",
+    "description": "regular_hours / pre_market / after_hours / non_trading_day"
+  },
+  "news_provider": {
+    "role": "metadata",
+    "description": "API the canonical record came from: alpha_vantage | alpaca"
+  },
+  "news_providers_all": {
+    "role": "metadata",
+    "description": "All APIs that returned this article"
+  },
+  "publisher": {
+    "role": "feature",
+    "description": "Normalised name of the actual news publisher"
+  },
+  "source": {
+    "role": "metadata",
+    "description": "Publisher/source field exactly as returned by the API"
+  },
+  "source_domain": {
+    "role": "metadata",
+    "description": "Domain of the article URL"
+  },
+  "author": {
+    "role": "metadata",
+    "description": "Author(s) as returned by the API"
+  },
+  "url": {
+    "role": "metadata",
+    "description": "Article URL"
+  },
+  "alpha_vantage_id": {
+    "role": "identifier",
+    "description": "Alpha Vantage record id(s) (derived from URL; ';'-separated)"
+  },
+  "alpaca_id": {
+    "role": "identifier",
+    "description": "Alpaca news id(s) (';'-separated)"
+  },
+  "ticker_detection_method": {
+    "role": "metadata",
+    "description": "Evidence used to link the ticker"
+  },
+  "ticker_confidence": {
+    "role": "feature",
+    "description": "Confidence of the ticker link (0-1)"
+  },
+  "n_tickers_in_article": {
+    "role": "feature",
+    "description": "Number of tickers linked to the article"
+  },
+  "overall_sentiment_score": {
+    "role": "feature",
+    "description": "Alpha Vantage article sentiment (text-derived)"
+  },
+  "overall_sentiment_label": {
+    "role": "feature",
+    "description": "Alpha Vantage article sentiment label"
+  },
+  "av_ticker_relevance_score": {
+    "role": "feature",
+    "description": "Alpha Vantage relevance of this ticker"
+  },
+  "av_ticker_sentiment_score": {
+    "role": "feature",
+    "description": "Alpha Vantage ticker-specific sentiment"
+  },
+  "av_ticker_sentiment_label": {
+    "role": "feature",
+    "description": "Alpha Vantage ticker-specific sentiment label"
+  },
+  "topics": {
+    "role": "feature",
+    "description": "Alpha Vantage topics (JSON)"
+  },
+  "volatility": {
+    "role": "feature",
+    "description": "PRE-news per-minute log-return volatility (prior sessions + same-day pre-news bars)"
+  },
+  "baseline_volume_per_min": {
+    "role": "feature",
+    "description": "PRE-news average volume per minute in prior sessions"
+  },
+  "baseline_return_count": {
+    "role": "feature",
+    "description": "Number of 1-minute returns in the volatility baseline"
+  },
+  "pre_news_close": {
+    "role": "feature",
+    "description": "Last traded 1-minute close strictly BEFORE the news minute"
+  },
+  "pre_news_return_15m": {
+    "role": "feature",
+    "description": "Return over the 15 minutes BEFORE the news (same session)"
+  },
+  "market_alignment": {
+    "role": "metadata",
+    "description": "same_minute | next_candle | next_market_open | unavailable"
+  },
+  "market_unavailable_reason": {
+    "role": "metadata",
+    "description": "Why market data could not be aligned"
+  },
+  "market_session_date": {
+    "role": "metadata",
+    "description": "Trading session the event was aligned to"
+  },
+  "market_timestamp_utc": {
+    "role": "metadata",
+    "description": "Start time of the aligned T0 1-minute candle"
+  },
+  "alignment_lag_seconds": {
+    "role": "metadata",
+    "description": "T0 candle start minus news time (negative = candle began before news)"
+  },
+  "open": {
+    "role": "outcome",
+    "description": "T0 candle open (T0 candle overlaps/follows publication)"
+  },
+  "high": {
+    "role": "outcome",
+    "description": "T0 candle high"
+  },
+  "low": {
+    "role": "outcome",
+    "description": "T0 candle low"
+  },
+  "close": {
+    "role": "outcome",
+    "description": "T0 candle close = reference price for post-news returns"
+  },
+  "volume": {
+    "role": "outcome",
+    "description": "T0 candle volume"
+  },
+  "return_1m": {
+    "role": "outcome",
+    "description": "FUTURE return from T0 close to T0+1m (label generation only)"
+  },
+  "return_5m": {
+    "role": "outcome",
+    "description": "FUTURE return from T0 close to T0+5m (label generation only)"
+  },
+  "return_15m": {
+    "role": "outcome",
+    "description": "FUTURE return from T0 close to T0+15m (label generation only)"
+  },
+  "return_30m": {
+    "role": "outcome",
+    "description": "FUTURE return from T0 close to T0+30m (label generation only)"
+  },
+  "return_60m": {
+    "role": "outcome",
+    "description": "FUTURE return from T0 close to T0+60m (label generation only)"
+  },
+  "high_move_5m": {
+    "role": "outcome",
+    "description": "Max high in (T0, T0+5m] relative to T0 close"
+  },
+  "low_move_5m": {
+    "role": "outcome",
+    "description": "Min low in (T0, T0+5m] relative to T0 close"
+  },
+  "bars_in_5m": {
+    "role": "outcome",
+    "description": "Number of 1-minute bars in (T0, T0+5m]"
+  },
+  "event_volume": {
+    "role": "outcome",
+    "description": "Volume in the post-news volume window"
+  },
+  "expected_volume": {
+    "role": "outcome",
+    "description": "Same clock-time volume in prior sessions (baseline for volume_ratio)"
+  },
+  "volume_ratio": {
+    "role": "outcome",
+    "description": "event_volume / expected_volume"
+  },
+  "gap_return": {
+    "role": "outcome",
+    "description": "Opening gap vs last pre-news close (overnight news only)"
+  },
+  "gap_abnormal": {
+    "role": "outcome",
+    "description": "gap_return standardised by volatility*sqrt(390)"
+  },
+  "abnormal_return_1m": {
+    "role": "outcome",
+    "description": "return_1m / (volatility*sqrt(1))"
+  },
+  "abnormal_return_5m": {
+    "role": "outcome",
+    "description": "return_5m / (volatility*sqrt(5))"
+  },
+  "abnormal_return_15m": {
+    "role": "outcome",
+    "description": "return_15m / (volatility*sqrt(15))"
+  },
+  "abnormal_return_30m": {
+    "role": "outcome",
+    "description": "return_30m / (volatility*sqrt(30))"
+  },
+  "abnormal_return_60m": {
+    "role": "outcome",
+    "description": "return_60m / (volatility*sqrt(60))"
+  },
+  "abnormal_return": {
+    "role": "outcome",
+    "description": "z-score of the horizon that determined the label"
+  },
+  "label": {
+    "role": "target",
+    "description": "spike | crash | neutral (market reaction following the news)"
+  },
+  "label_confidence": {
+    "role": "label_metadata",
+    "description": "Heuristic confidence of the label (0-1)"
+  },
+  "label_reason": {
+    "role": "label_metadata",
+    "description": "Human-readable explanation of the label"
+  },
+  "label_horizon_minutes": {
+    "role": "label_metadata",
+    "description": "Horizon that determined the label (0 = opening gap)"
+  },
+  "direction_consistency": {
+    "role": "label_metadata",
+    "description": "Share of horizons moving in the label direction"
+  },
+  "quality_flags": {
+    "role": "metadata",
+    "description": "';'-separated data-quality flags"
+  },
+  "is_usable": {
+    "role": "metadata",
+    "description": "True if the row has a label and passed all critical checks"
+  }
+}

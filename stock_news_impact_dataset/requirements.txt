@@ -1,0 +1,15 @@
+# Core
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+python-dotenv>=1.0
+tzdata>=2024.1          # IANA time zones on Windows
+rapidfuzz>=3.0          # fuzzy title de-duplication
+matplotlib>=3.7         # inspection plots
+
+# NER (ticker identification). After installing, download the model once:
+#   python -m spacy download en_core_web_sm
+spacy>=3.7
+
+# Tests
+pytest>=7.0
